@@ -6,7 +6,6 @@ import java.util.Map;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-<<<<<<< HEAD
 import static spark.Spark.*;
 import spark.template.freemarker.FreeMarkerEngine;
 import spark.ModelAndView;
@@ -56,13 +55,6 @@ public class Main {
       }
     }, new FreeMarkerEngine());
 
-=======
-public class Main extends HttpServlet {
-  @Override
-  protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-      throws ServletException, IOException {
-    resp.getWriter().print("Hello from King!");
->>>>>>> origin/master
   }
 
 }
